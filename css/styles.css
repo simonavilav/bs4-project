@@ -6,7 +6,7 @@
 .row-content {
     margin: 0px auto;
     padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge #D1C4E9;
+    border-bottom: 0px;
     min-height: 400px;
 }
 
@@ -27,4 +27,8 @@
     font-size: 80%;
     margin: 0px;
     color: #0f0f0f
+}
+
+.centercopyright {
+    padding: 15px 0px 15px 0px;
 }
