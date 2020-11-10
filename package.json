@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run lite",
+    "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "scss": "node-sass -o css/ css/"
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
   },
   "repository": {
     "type": "git",
@@ -29,6 +31,8 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "less": "^3.12.2",
+    "onchange": "^7.1.0",
+    "parallelshell": "^3.0.2",
     "popper.js": "^1.12.9"
   }
 }

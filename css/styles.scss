@@ -74,3 +74,19 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+// SASS MODAL STYLES.
+.modal {
+    
+    .modal-header {
+        color:#FFFAF0; //floralwhite color
+        background-color:$background-dark;
+        .close {
+            color:#FFFAF0; //floralwhite color
+        }
+    }
+
+    .modal-body {
+        background-color:$background-pale;
+    }
+}
