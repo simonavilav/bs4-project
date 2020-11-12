@@ -2,9 +2,9 @@
 
 Restaurant web pages developed using html and bootstrap4.
 
-index.html - Home page
-aboutus.html - Restaurant info page
-concatus.html - Contact page
+index.html (Home page).
+aboutus.html (Restaurant info page).
+concatus.html (Contact page).
 
 Using jquery to do some scripts for the web page such a carousel script or modal buttons for login and reserve forms.
 
